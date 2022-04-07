@@ -67,10 +67,11 @@ namespace Geometria
 
         public string ToString()
         {
-            return "Base: " + getBase() +
-                    "Altezza: " + getAltezza() +
-                    "Perimetro: " + calcolaPerimetro() +
-                    "Area: " + calcolaArea();
+            return "Rettangolo: "+
+                    "\nBase: " + getBase() + " cm"+
+                    "\nAltezza: " + getAltezza() + " cm"+
+                    "\nPerimetro: " + calcolaPerimetro() + " cm"+
+                    "\nArea: " + calcolaArea() + " cm^2";
         }
     }
 }

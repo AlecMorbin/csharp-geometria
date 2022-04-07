@@ -9,3 +9,4 @@ int baseR = int.Parse( Console.ReadLine() );
 int altezzaR = int.Parse( Console.ReadLine() );
 rettangolo = new Rettangolo(baseR, altezzaR);
 Console.WriteLine(rettangolo.ToString());
+
